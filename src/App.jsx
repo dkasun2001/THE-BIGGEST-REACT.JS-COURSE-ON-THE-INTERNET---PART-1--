@@ -31,6 +31,14 @@ import UseStateFrinds from "./components/14-State In Action/UseStateFrinds";
 import UseStateObject from "./components/14-State In Action/UseStateObject";
 import UseStateArrayOfObject from "./components/14-State In Action/UseStateArrayOfObject";
 import UseStateFive from "./components/14-State In Action/UseStateFive";
+import ExampleOne from "./components/15-Passing Function To useState/components/ExampleOne";
+import ExampleTwo from "./components/15-Passing Function To useState/components/ExampleTwo";
+import ExampleThree from "./components/15-Passing Function To useState/components/ExampleThree";
+import Counter from "./components/16-useState Challanges/Counter";
+import ToDoList from "./components/16-useState Challanges/ToDoList";
+import Profile from "./components/16-useState Challanges/Profile";
+import ShoppingList from "./components/16-useState Challanges/ShoppingList";
+import CopyInput from "./components/17-React Portal In Action/component/CopyInput";
 
 const App = () => {
   return (
@@ -97,7 +105,18 @@ const App = () => {
       {/* <UseStateFrinds/> */}
       {/* <UseStateObject/> */}
       {/* <UseStateArrayOfObject /> */}
-      <UseStateFive/>
+      {/* <UseStateFive/> */}
+
+      {/* <ExampleOne /> */}
+      {/* <ExampleTwo /> */}
+      {/* <ExampleThree /> */}
+
+      {/* <Counter /> */}
+      {/* <ToDoList /> */}
+      {/* <Profile /> */}
+      {/* <ShoppingList /> */}
+
+      <CopyInput />
     </div>
   );
 };
